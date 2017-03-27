@@ -1,26 +1,26 @@
 # ExampleHibernate
 
-//hibernate.cfg
-DB driver class : com.mysql.jdbc.Driver
-DB connection url : jdbc:mysql://localhost:3307/mysql
-DB connection username : [kullanici_adiniz]
-DB connection password : [parolanız]
+<br>//hibernate.cfg
+<br>DB driver class : com.mysql.jdbc.Driver
+<br>DB connection url : jdbc:mysql://localhost:3307/mysql
+<br>DB connection username : [kullanici_adiniz]
+<br>DB connection password : [parolanız]
 
-//Employee Table
-  Id(int auto_increment, primary key),
-  Name(Text),
-  Surname(Text),
-  Salary(int),
-  DepartmentId(foreign_key)
+<br>//Employee Table
+  <br>Id(int auto_increment, primary key),
+  <br>Name(Text),
+  <br>Surname(Text),
+  <br>Salary(int),
+  <br>DepartmentId(foreign_key)
   
-//Department Table
-  Id(int auto_increment, primary key),
-  Name(Text),
-  Description(Text)
+<br>//Department Table
+  <br>Id(int auto_increment, primary key),
+  <br>Name(Text),
+  <br>Description(Text)
   
-//Meetings Table
-  Id(int auto_increment, primary key),
-  Name(Text),
-  Description(Text),
-  DepartmentId(Foreign_key)
+<br>//Meetings Table
+  <br>Id(int auto_increment, primary key),
+  <br>Name(Text),
+  <br>Description(Text),
+  <br>DepartmentId(Foreign_key)
   
